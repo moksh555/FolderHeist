@@ -1,0 +1,7 @@
+.env
+token.json
+watch_channel.json
+start_page_token.txt
+__pycache__/
+*.pyc
+client_secret.json
