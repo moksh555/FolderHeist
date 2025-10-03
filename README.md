@@ -46,7 +46,7 @@ FolderHeist is an **AI agent** that watches a Google Drive **Inbox** folder in r
 
 ## 1) Install
 ~~~bash
-git clone [<REPO_URL> FolderHeist](https://github.com/moksh555/FolderHeist.git)
+git clone https://github.com/moksh555/FolderHeist.git
 cd FolderHeist
 
 python3 -m venv .venv
