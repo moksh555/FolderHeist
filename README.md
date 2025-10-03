@@ -46,8 +46,8 @@ FolderHeist is an **AI agent** that watches a Google Drive **Inbox** folder in r
 
 ## 1) Install
 ~~~bash
-git clone <REPO_URL> drivesherpa
-cd drivesherpa
+git clone [<REPO_URL> FolderHeist](https://github.com/moksh555/FolderHeist.git)
+cd FolderHeist
 
 python3 -m venv .venv
 source .venv/bin/activate
@@ -125,7 +125,7 @@ FOLDER_CATALOG_CSV=folders.csv
 
 # AI routing
 ROUTER_CONF_THRESHOLD=0.55
-GEMINI_API_KEY= iuhfuierq...........qv (Please set this your Gemini AP which could be reterived from Google AI Studio)
+GEMINI_API_KEY= iuhfuierq...........qv (Please set this your Gemini APi which could be reterived from Google AI Studio)
 ~~~
 
 **How to find folder IDs**: open the folder in Drive and copy the long string in the URL.  
