@@ -1,4 +1,4 @@
-# FolderHeist — Google Drive auto-filer (webhook + AI routing)
+# FolderHeist — AI Agent for Drive Organization (webhook + AI routing)
 
 FolderHeist is an **AI agent** that watches a Google Drive **Inbox** folder in real time. When you drop a file, it reads the content, decides the **best destination folder** (using Gemini or heuristics), and **moves the file automatically**. It’s built on Google Drive **Change Notifications** (watch channels) with a small Flask webhook.
 
