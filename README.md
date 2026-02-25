@@ -6,32 +6,32 @@ FolderHeist is an **AI agent** that watches a Google Drive **Inbox** folder in r
 ---
 
 ## Features
-- 🔔 Real-time Drive watch channel (no polling)
-- 🧭 AI routing with Gemini 2.5 Flash + safe keyword heuristics fallback
-- 🗂️ CSV-driven taxonomy (`folders.csv`), missing folders auto-created; IDs written back
-- 🛡️ Safe: skips folders, exports Docs/Sheets properly, webhook always returns 200
-- 🌐 ngrok-ready HTTPS for local development
-- 🧱 Modular codebase with `.env` configuration
+- Real-time Drive watch channel (no polling)
+- AI routing with Gemini 2.5 Flash + safe keyword heuristics fallback
+- CSV-driven taxonomy (`folders.csv`), missing folders auto-created; IDs written back
+- Safe: skips folders, exports Docs/Sheets properly, webhook always returns 200
+- ngrok-ready HTTPS for local development
+- Modular codebase with `.env` configuration
 
 ---
 
 ## Project layout
 ```
 .
-├─ app.py
-├─ config.py
-├─ ai_router.py
-├─ state.py
-├─ services/
-│  ├─ drive_client.py
-│  ├─ folder_catalog.py
-│  ├─ notifications.py
-│  ├─ processing.py
-│  └─ labels.py
-├─ folders.csv                 # taxonomy (IDs auto-filled)
-├─ requirements.txt
-├─ .env.example  # this is were you will set everything like Gemini API key your folder Id which you will watch for any changes and many other thngs, everything is exaplined down below.
-└─ client_secret.json         # secret from Google cloud paltform
+ app.py
+ config.py
+ ai_router.py
+ state.py
+ services/
+   drive_client.py
+   folder_catalog.py
+   notifications.py
+   processing.py
+   labels.py
+ folders.csv                 # taxonomy (IDs auto-filled)
+ requirements.txt
+ .env.example  # this is were you will set everything like Gemini API key your folder Id which you will watch for any changes and many other thngs, everything is exaplined down below.
+ client_secret.json         # secret from Google cloud paltform
 ```
 
 ---
